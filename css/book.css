@@ -1,0 +1,313 @@
+/*
+* @Author: chen
+* @Date:   2018-01-07 18:34:20
+* @Last Modified by:   chen
+* @Last Modified time: 2018-01-11 09:31:07
+*/
+@import url("base.css");
+
+@font-face {
+  font-family: 'iconfont';  /* project id 531196 */
+  src: url('http://at.alicdn.com/t/font_531196_0egpiluaxd1dzpvi.eot');
+  src: url('http://at.alicdn.com/t/font_531196_0egpiluaxd1dzpvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_531196_0egpiluaxd1dzpvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_531196_0egpiluaxd1dzpvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_531196_0egpiluaxd1dzpvi.svg#iconfont') format('svg');
+}
+
+i{
+	font-style: normal;
+}
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.88rem;
+	display: flex;
+	box-sizing: border-box;
+	padding: 0 0.36rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.return{
+	display: block;
+}
+.hearer_icon{
+	font-size: 0.36rem;
+	color: #b3b3b3;
+	font-family: 'iconfont';
+}
+.search_img{
+	font-size: 0.3rem;
+	color: #b3b3b3;
+	font-family: 'iconfont';
+}
+.search h3{
+	font-size: 0.25rem;
+	color: #b3b3b3;
+	font-weight: normal;
+	margin-left: 0.05rem;
+}
+.saoyisao{
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+}
+.saoyisao img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 头部结束 */
+
+/* 图书简介开始 */
+.jianjie{
+	width: 100%;
+	height: 6.99rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ededed;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.jiejie_img{
+	width: 2.16rem;
+	height: 3.02rem;
+	/* background: yellow; */
+	margin-top: 0.4rem;
+}
+.jiejie_img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jianjie h2{
+	font-size: 0.3rem;
+	color: #444;
+}
+.jianjie span{
+	font-size: 0.22rem;
+	color: #b3b3b3;
+	text-align: center;
+}
+.jianjie span::first-line{
+	font-size: 0.25rem;
+	color: #149bb3;	
+}
+.jianjie p{
+	font-size: 0.3rem;
+	color: red;
+}
+.jianjie_title{
+	width: 100%;
+	height: 0.62rem;
+	padding: 0 1.41rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.jianjie_title li{
+	width: 0.78rem;
+	height: 100%;
+	box-sizing: border-box;
+}
+.jianjie_title li:first-child{
+	border-bottom: 4px solid #545454;
+}
+.jianjie_title li a{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+}
+.jianjie_title li a h3{
+	font-size: 0.29rem;
+	color: #545454;
+	font-weight: normal;
+}
+/* 图书简介结束 */
+
+/* 详情开始 */
+.xiangqing{
+	width: 100%;
+	height: 2.09rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ececec;
+	padding: 0.36rem 0.34rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.xiangqing p{
+	width: 6.45rem;
+	height: 0.96rem;
+	line-height: 0.48rem;
+	font-size: 0.26rem;
+	color: #6b6b6b;
+}
+.zhankai{
+	width: 0.85rem;
+	height: 0.25rem;
+	align-self: flex-end;
+}
+.zhankai a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.zhankai a h2{
+	font-size: 0.22rem;
+	color: #cbb19c;
+	font-weight: normal;
+}
+.leibiao_top_icon{
+	font-size: 0.05rem;
+	color: #cbb19c;
+	font-family: 'iconfont';
+}
+/* 详情结束 */
+
+/* 评论开始 */
+.pinglun{
+	width: 100%;
+	border-bottom: 0.96rem;
+}
+.pinglun_top{
+	width: 100%;
+	height: 0.97rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 0.21rem;
+	border-bottom: 1px solid #e3e5e9;
+}
+.pinglun_top h2{
+	font-size: 0.25rem;
+	color: #81838e;
+	font-weight: normal;
+}
+.haoping{
+	width: 1.72rem;
+	height: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.haoping p{
+	font-size: 0.24rem;
+	color: #81838e;
+	line-height: 0.24rem;
+}
+.haoping_icon{
+	font-size: 0.21rem;
+	color: #c0c0c0;
+	font-family: 'iconfont';
+}
+.pinglun_bottom{
+	width: 100%;
+	height: 6.03rem;
+}
+.pinglun_bottom li{
+	width: 100%;
+	border-bottom: 1px solid #ececec;
+	box-sizing: border-box;
+	padding: 0.3rem 0.3rem;
+}
+.pinglun_bottom_user{
+	width: 100%;
+	height: 0.50rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+.user_title{
+	height: 0.5rem;
+	display: flex;
+	align-items: center;
+}
+.user_img{
+	width: 0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+}
+.user_img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pinglun_bottom_user p{
+	font-size: 0.2rem;
+	color: #232326;
+	margin-left: 0.16rem;
+}
+.pinlun_bottom_user_img{
+	font-size: 0.2rem;
+	color: #f23030;
+    font-family: 'iconfont';
+}
+.pinglun_bottom li p{
+	margin-top: 0.05rem;
+	font-size: 0.27rem;
+	color: #808080;
+}
+/* 评论结束 */
+
+/* tab栏开始 */
+.tab{
+	width: 100%;
+	height: 0.96rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	bottom: 0;
+	z-index: 9999;
+	background: #fff;
+}
+.tab_left{
+	width: 4.2rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 0.4rem;
+}
+.tab li{
+	width: 0.9rem;
+	height: 0.8rem;
+}
+.tab li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.tab_icon{
+	font-size: 0.44rem;
+	color: #2a2835;
+	font-family: 'iconfont';
+}
+.tab li a h3{
+	font-size: 0.21rem;
+	color: #424242;
+	font-weight: normal;
+}
+.tab h2{
+	width: 3rem;
+	height: 100%;
+	background: #f23030;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.96rem;
+}
+/* tab栏结束 */

@@ -1,0 +1,171 @@
+/*
+* @Author: chen
+* @Date:   2018-01-07 15:31:19
+* @Last Modified by:   chen
+* @Last Modified time: 2018-01-07 16:32:41
+*/
+@import url("base.css");
+
+@font-face {
+  font-family: 'iconfont';  /* project id 531196 */
+  src: url('http://at.alicdn.com/t/font_531196_6yanr9qaq1gaatt9.eot');
+  src: url('http://at.alicdn.com/t/font_531196_6yanr9qaq1gaatt9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_531196_6yanr9qaq1gaatt9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_531196_6yanr9qaq1gaatt9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_531196_6yanr9qaq1gaatt9.svg#iconfont') format('svg');
+}
+
+i{
+	font-style: normal;
+}
+
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.88rem;
+	display: flex;
+	box-sizing: border-box;
+	padding: 0 0.36rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.return{
+	display: block;
+}
+.hearer_icon{
+	font-size: 0.36rem;
+	color: #b3b3b3;
+	font-family: 'iconfont';
+}
+header h2{
+	font-size: 0.32rem;
+	color: #444444;
+}
+.search_img{
+	font-size: 0.3rem;
+	color: #b3b3b3;
+	font-family: 'iconfont';
+}
+.search h3{
+	font-size: 0.25rem;
+	color: #b3b3b3;
+	font-weight: normal;
+	margin-left: 0.05rem;
+}
+.saoyisao{
+	display: block;
+	width: 0.36rem;
+	height: 0.36rem;
+}
+.saoyisao img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 头部结束 */
+
+/* 列表开始 */
+.liebiao{
+	width: 100%;
+	height: 22.98rem;
+	background: #ededed;
+	box-sizing: border-box;
+	padding-bottom: 0.96rem;
+}
+.liebiao_top{
+	width: 100%;
+	height: 0.81rem;
+	box-sizing: border-box;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	display: flex;
+}
+.liebiao_top li{
+	width: calc(100% / 3);
+	height: 100%;
+}
+.liebiao_top li a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.leibiao_top_box{
+	width: 0.9rem;
+	height: 0.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.leibiao_top_box h2{
+	font-size: 0.29rem;
+	color: #232326;
+	font-weight: normal;
+}
+.leibiao_top_icon{
+	font-size: 0.07rem;
+	color: #232326;
+	font-family: 'iconfont';
+}
+#leibiao_xunazhong{
+	color: #f23030;
+}
+.changxiao_bottom{
+	width: 100%;
+	height: 20.80rem;
+	background: #fff;
+	box-sizing: border-box;
+	border-bottom: 1px solid #cccccc;
+	display: flex;
+	flex-wrap: wrap;
+}
+.changxiao_bottom li{
+	width: 50%;
+	height: calc(100% / 6);
+	box-sizing: border-box;
+	border-bottom: 1px solid #ededed;
+	border-right: 1px solid #ededed;
+}
+#list_border{
+	border-right: 0;
+}
+.changxiao_bottom li a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.changxiao_bottom li a img{
+	display: block;
+	width: 2.2rem;
+	height: 2.2rem;
+	margin: 0.2rem auto 0;
+}
+.changxiao_bottom li a h2{
+	font-size: 0.24rem;
+	color: #424242;
+	font-weight: normal;
+	width: 100%;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.changxiao_bottom li a span{
+	width: 1.83rem;
+	height: 0.2rem;
+	display: flex;
+	align-items: baseline;
+	margin: 0 auto;
+}
+.chaoxiao_price_now{
+	font-size: 0.2rem;
+	color: #aa0001;
+}
+.chaoxiao_price{
+	font-size: 0.17rem;
+	color: #999999;
+	text-decoration: line-through;
+}
+/* 列表结束 */
+
+
