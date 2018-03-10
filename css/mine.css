@@ -75,20 +75,17 @@ header h2{
 	width: 2.12rem;
 	height: 100%;
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-content: space-between;
 }
 .data li h3{
 	font-size: 0.24rem;
 	color: #444444;
-	text-align: center;
 }
 .data li p{
 	font-size: 0.23rem;
 	color: #b3b3b3;
-	text-align: center;
-
 }
 /* 用户简介结束 */
 
@@ -182,7 +179,7 @@ header h2{
 	width: 100%;
 	height: 100%;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: center;
 }
 .tab_icon{
